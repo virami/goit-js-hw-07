@@ -1,0 +1,48 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+
+.link-back {
+    display: block;
+    margin-bottom: 24px;
+    padding: 4px 4px;
+
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    background-color:lightgrey;
+    color: #2e2f42;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 96px;
+    height: 36px;
+  }
+
+  .link-back:hover,
+  .link-back:focus {
+    border: 1px solid #808080;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    max-width: 1200px;
+  }
+
+  .picture {
+    width: 360px;
+    height: 280px;
+    
+  }
