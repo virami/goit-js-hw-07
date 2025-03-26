@@ -1,4 +1,4 @@
-const tInput = document.querySelector('.inp');
+const tInput = document.querySelector('#name-input');
 
 const output = document.querySelector('#name-output');
 
